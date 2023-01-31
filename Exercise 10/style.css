@@ -1,0 +1,52 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right,red,skyblue);
+    width: 100px;
+    border-radius: 0px 10px;
+}
+
+li{
+    text-align: center;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 0px;
+    font-weight: bolder;
+}
+
+li a:hover{
+    background-color:rgb(151, 196, 218);
+    color: black;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    background: linear-gradient(to right,lightblue,blue);
+    border-radius: 0px 30px;
+    transition: transform 10s;
+}
+
+#div1:hover{
+    transform: rotate(180deg);
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-top: 50px;
+    animation-name: square;
+    animation-duration: 10s;
+}
+
+@keyframes square{
+    from{transform:translate(0px)}
+    to{transform:translate(100px) ;}
+}

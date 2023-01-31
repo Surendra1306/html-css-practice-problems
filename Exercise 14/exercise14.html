@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Exercise 14</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            Enter some text:<input type="text" id="inputText">
+            <p id="mouseOver" onmouseover=" onMouse()">Mouseover here to get the entered text</p>
+        </div>
+
+        <div id="div2">
+            <form onsubmit="formDetails()">
+                <table >
+                    <tr>
+                        <td>
+                            UserName: 
+                        </td>
+                        <td>
+                            <input type="text" name="usr" id="user">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password: 
+                        </td>
+                        <td>
+                            <input type="password" name="pwd" id="pass">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
+    </body>
+</html>

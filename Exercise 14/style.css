@@ -1,0 +1,13 @@
+#mouseOver
+{
+    float: right;
+}
+
+#div2
+{
+    margin-top: 50px;
+    border: 1px solid;
+    width: 255px;
+    border-radius: 15px;
+    padding-top: 15px;
+}

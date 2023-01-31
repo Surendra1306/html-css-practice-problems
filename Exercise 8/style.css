@@ -1,0 +1,22 @@
+#div1
+{
+    border-style: solid;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    border-width: 5px;
+    background-color: gray;
+    margin: auto;
+}
+
+#div2
+{
+    padding-top: 5%;
+}
+
+#div2 a
+{
+    color: white;
+    font-size: large;
+    padding: 20px 50px;
+}
